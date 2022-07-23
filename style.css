@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    font-family: 'Poppins';
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 290px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+}
+.jadwal {
+    text-align: center;
+    height: auto;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    border: 1px solid;
+    border-radius: 5px;
+}
+h3{
+    margin-top: 1px;
+    border-bottom: 1px solid ;
+}
+.senin {
+    left: 20px;
+    top: 100px;
+}
+.selasa{
+    left: 190px;
+    top: 100px;
+}
+.rabu{
+    left: 20px;
+    top: 300px;
+}
+.kamis{
+    left: 190px;
+    top: 300px;
+}
+.jumat{
+    left: 20px;
+    top: 500px;
+}
+.sabtu{
+    left: 190px;
+    top: 500px;
+}
+h1 {
+    text-align: center;
+}
